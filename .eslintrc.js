@@ -27,7 +27,6 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/jsx-one-expression-per-line': 'off',
-    'no-unused-vars': 'error',
 
     // Allow untyped functions
     '@typescript-eslint/explicit-module-boundary-types': 'off',
