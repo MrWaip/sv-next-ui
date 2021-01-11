@@ -1,7 +1,9 @@
 import Head from 'next/head';
+import { CRMLayout } from '../layouts/crm.layout';
 import styles from '../styles/Home.module.css';
+import { PageWithLayout } from '../types';
 
-export default function Home() {
+const Home: PageWithLayout = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -55,4 +57,7 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+};
+
+export default Home;
+Home.Layout = CRMLayout;
