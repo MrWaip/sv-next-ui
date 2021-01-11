@@ -42,6 +42,9 @@ module.exports = {
     // Why would you want unused vars?
     '@typescript-eslint/no-unused-vars': ['error'],
 
+    'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
+
     'prettier/prettier': ['error', {}, { usePrettierrc: true }], // Includes .prettierrc.js rules
   },
   globals: {
